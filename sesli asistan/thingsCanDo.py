@@ -163,7 +163,7 @@ def eba():
     driver.get("https://giris.eba.gov.tr/EBA_GIRIS/student.jsp")
 
     tcNo_textbox = driver.find_element_by_id("tckn")
-    tcNo_textbox.send_keys("10436757744")
+    tcNo_textbox.send_keys("*****")
 
     password_textbox = driver.find_element_by_id("password")
     password_textbox.send_keys("*****")
