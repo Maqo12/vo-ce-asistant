@@ -166,7 +166,7 @@ def eba():
     tcNo_textbox.send_keys("10436757744")
 
     password_textbox = driver.find_element_by_id("password")
-    password_textbox.send_keys("EBAyahoşgeldim")
+    password_textbox.send_keys("*****")
 
     login_button = driver.find_element_by_class_name("nl-form-send-btn")
     login_button.submit()
